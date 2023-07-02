@@ -5,7 +5,7 @@ public class TestReferencia{
 	 */
 	public static void main(String[] args) {
 		
-		Cuenta primeraCuenta=new Cuenta();
+		Cuenta primeraCuenta=new Cuenta(1);
 		primeraCuenta.depositar(200);
 		
 		Cuenta segundaCuenta=primeraCuenta;

@@ -2,12 +2,13 @@
 class Cuenta {
 	private double saldo;
 	private int agencia;
-	private int numero;
+	//private int numero;
 	private Cliente titular=new Cliente();
 	
 	public static int total=0;
 	
-	public Cuenta(int agencia) {
+	
+	public Cuenta(int agencia) { //Constructor personalizado
 		if(agencia<=0) {
 			System.out.println("No se permite 0");
 			this.agencia=1;
