@@ -23,4 +23,6 @@ public class Administrador extends Funcionario implements Autenticable {
 		return this.util.iniciarSesion(clave);
 	}
 
+	
+
 }
